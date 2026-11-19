@@ -4,6 +4,10 @@
 
 A macOS screen saver that displays a web page or a series of web pages.
 
+> [!IMPORTANT]
+> This is a fork of https://github.com/liquidx/webviewscreensaver that fixes https://github.com/liquidx/webviewscreensaver/issues/97 (and also rewrites to Swift using Claude Code).
+> Fair warning, I have not reviewed the code so use it on your own risk. No support is provided.
+
 > [!WARNING]
 > If the Options button doesn't do anything on macOS 26 Tahoe close and reopen System Settings. This seems to be an OS-level bug with no known code workaround.
 
