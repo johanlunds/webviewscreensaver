@@ -3,369 +3,257 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6414570D1AEDC92100FB6CDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6414570C1AEDC92100FB6CDF /* AppDelegate.m */; };
-		6414570F1AEDC92200FB6CDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6414570E1AEDC92200FB6CDF /* main.m */; };
-		641457111AEDC92200FB6CDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641457101AEDC92200FB6CDF /* Images.xcassets */; };
-		641457141AEDC92200FB6CDF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 641457121AEDC92200FB6CDF /* MainMenu.xib */; };
-		641457291AEDCAD000FB6CDF /* WVSSConfigController.h in Headers */ = {isa = PBXBuildFile; fileRef = 641457271AEDCAD000FB6CDF /* WVSSConfigController.h */; };
-		6414572A1AEDCAD000FB6CDF /* WVSSConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641457281AEDCAD000FB6CDF /* WVSSConfigController.m */; };
-		6414572B1AEDCAD000FB6CDF /* WVSSConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641457281AEDCAD000FB6CDF /* WVSSConfigController.m */; };
-		6414572E1AEDCBD900FB6CDF /* WVSSConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6414572C1AEDCBD900FB6CDF /* WVSSConfig.h */; };
-		6414572F1AEDCBD900FB6CDF /* WVSSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6414572D1AEDCBD900FB6CDF /* WVSSConfig.m */; };
-		641457301AEDCBD900FB6CDF /* WVSSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6414572D1AEDCBD900FB6CDF /* WVSSConfig.m */; };
-		641457331AEDCCAB00FB6CDF /* WVSSAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 641457311AEDCCAB00FB6CDF /* WVSSAddress.h */; };
-		641457341AEDCCAB00FB6CDF /* WVSSAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 641457321AEDCCAB00FB6CDF /* WVSSAddress.m */; };
-		641457351AEDCCAB00FB6CDF /* WVSSAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 641457321AEDCCAB00FB6CDF /* WVSSAddress.m */; };
-		641457381AEDD51900FB6CDF /* WVSSAddressListFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 641457361AEDD51900FB6CDF /* WVSSAddressListFetcher.h */; };
-		641457391AEDD51900FB6CDF /* WVSSAddressListFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 641457371AEDD51900FB6CDF /* WVSSAddressListFetcher.m */; };
-		6414573A1AEDD51900FB6CDF /* WVSSAddressListFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 641457371AEDD51900FB6CDF /* WVSSAddressListFetcher.m */; };
-		6414573B1AEDECD800FB6CDF /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64EED3E8120EC6380048A830 /* ConfigureSheet.xib */; };
-		64628F051B27BBE100B7B73D /* WebViewScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* WebViewScreenSaverView.m */; };
-		64628F301B281BB300B7B73D /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 64628F2E1B281BB300B7B73D /* thumbnail.png */; };
-		64628F311B281BB300B7B73D /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64628F2F1B281BB300B7B73D /* thumbnail@2x.png */; };
-		64EED329120EC1B40048A830 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64EED328120EC1B40048A830 /* WebKit.framework */; };
-		64EED3E9120EC6380048A830 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64EED3E8120EC6380048A830 /* ConfigureSheet.xib */; };
-		8D255AC70486D3F9007BF209 /* WebViewScreenSaver_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA80370C50100C91783 /* WebViewScreenSaver_Prefix.pch */; };
-		8D255AC80486D3F9007BF209 /* WebViewScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = F50079790118B23001CA0E54 /* WebViewScreenSaverView.h */; };
-		8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		8D255ACC0486D3F9007BF209 /* WebViewScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* WebViewScreenSaverView.m */; };
-		8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
-		8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */; };
-		F931A6832B8A8F6D00418701 /* WKWebViewPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F931A6812B8A8F6D00418701 /* WKWebViewPrivate.h */; };
-		F931A6842B8A8F6D00418701 /* WKWebViewPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = F931A6822B8A8F6D00418701 /* WKWebViewPrivate.m */; };
-		F931A6852B8A925C00418701 /* WKWebViewPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = F931A6822B8A8F6D00418701 /* WKWebViewPrivate.m */; };
-		F945D8A82BA0A2EE0038B7B5 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 64628F2E1B281BB300B7B73D /* thumbnail.png */; };
-		F945D8A92BA0A2EE0038B7B5 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64628F2F1B281BB300B7B73D /* thumbnail@2x.png */; };
-		F95905AA2EC8D419002430A3 /* WVSSFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F95905A92EC8D419002430A3 /* WVSSFileLogger.m */; };
-		F95905AB2EC8D419002430A3 /* WVSSFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F95905A82EC8D419002430A3 /* WVSSFileLogger.h */; };
-		F95905AC2EC8D419002430A3 /* WVSSFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F95905A92EC8D419002430A3 /* WVSSFileLogger.m */; };
-		F95905AE2EC90872002430A3 /* WVSSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F95905AD2EC9086E002430A3 /* WVSSLog.h */; };
+		13A752DD20C6F2C92AAC0286 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F917B7A87FD99F66C01B34 /* thumbnail@2x.png */; };
+		140399589A1965D6FCAA14FC /* WVSSAddressListFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_C7CB8EF0-2EC4-4925-AD6C-1D3B547932D9" /* WVSSAddressListFetcher.swift */; };
+		14E2201C9A01958FB47D2121 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5D74ABD95B10AAF1BE5C3E /* thumbnail.png */; };
+		1810944A4AB4B36345428065 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0630B3D5EBA890475B1AE61 /* MainMenu.xib */; };
+		23110E7219D878977937774A /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F917B7A87FD99F66C01B34 /* thumbnail@2x.png */; };
+		3A874EF7B0DC979EFE6A41E9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5054049C625BDDE4736298F2 /* main.swift */; };
+		4988CAA0407DEB74E99CEFA0 /* WVSSAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_2A942EF5-8F1C-4590-A900-35FBCB4A1894" /* WVSSAddress.swift */; };
+		503BD2AC3E6D4DD6E668A84A /* WVSSAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_2A942EF5-8F1C-4590-A900-35FBCB4A1894" /* WVSSAddress.swift */; };
+		55A49F879EAC0455A5165E75 /* WVSSAddressListFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_C7CB8EF0-2EC4-4925-AD6C-1D3B547932D9" /* WVSSAddressListFetcher.swift */; };
+		5E161D4651755CFBA8433239 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837FB787CB3553BDE3384E2A /* ConfigureSheet.xib */; };
+		5F8B386B46B358220008C0A6 /* WVSSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_780D3AEF-39FB-47D2-AD0D-A0E726CE2735" /* WVSSConfig.swift */; };
+		608430F63D7E1B4A11176E9F /* WVSSConfigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_04E8603B-A25B-47DD-ACDE-1ADC4F3C65C9" /* WVSSConfigController.swift */; };
+		67D174B9A236083B2E8CCE99 /* WVSSFileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_83E13D38-9B1C-4BA2-8DF3-A84705329BCA" /* WVSSFileLogger.swift */; };
+		8583A479A551DB7E73B32ECB /* WebViewScreenSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_982B00AC-95E5-4134-9B70-9D70255CA21B" /* WebViewScreenSaverView.swift */; };
+		8A47C0827C40387DBABA7803 /* WebViewScreenSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_982B00AC-95E5-4134-9B70-9D70255CA21B" /* WebViewScreenSaverView.swift */; };
+		8CE99CE5012582353789F188 /* WVSSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_780D3AEF-39FB-47D2-AD0D-A0E726CE2735" /* WVSSConfig.swift */; };
+		8F7EFDFCB9811E677CC5236F /* WKWebView+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_03B3327C-C8DC-42DC-9486-4B7BCC234B33" /* WKWebView+Private.swift */; };
+		92764659B09DCF0E86CF10C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F187BEA9E1385FBDE425AD52 /* AppDelegate.swift */; };
+		B5026896BCA5F8DF1460F580 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C04F1FCD9F6C255A6857A1A /* Images.xcassets */; };
+		D34FA402F6C6B6F1E6BBF3E4 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5D74ABD95B10AAF1BE5C3E /* thumbnail.png */; };
+		D866015F7EBF561C178E7EAF /* WVSSFileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_83E13D38-9B1C-4BA2-8DF3-A84705329BCA" /* WVSSFileLogger.swift */; };
+		E183D3D72DE94B9D8DD14406 /* WVSSConfigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_04E8603B-A25B-47DD-ACDE-1ADC4F3C65C9" /* WVSSConfigController.swift */; };
+		E33142F96DE0AF2445115FB8 /* WKWebView+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_03B3327C-C8DC-42DC-9486-4B7BCC234B33" /* WKWebView+Private.swift */; };
+		F4E16D741CA4E9F099DDD309 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4840DD8726AAA8A1F8FB317 /* InfoPlist.strings */; };
+		FD76EEC3B92DF5B00D80E1CA /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837FB787CB3553BDE3384E2A /* ConfigureSheet.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
-		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		32DBCFA80370C50100C91783 /* WebViewScreenSaver_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewScreenSaver_Prefix.pch; sourceTree = "<group>"; };
-		56F520D9224B119A00221B8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		641457071AEDC92100FB6CDF /* WebViewScreenSaverRig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewScreenSaverRig.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6414570A1AEDC92100FB6CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6414570B1AEDC92100FB6CDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6414570C1AEDC92100FB6CDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6414570E1AEDC92200FB6CDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		641457101AEDC92200FB6CDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		641457131AEDC92200FB6CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		641457271AEDCAD000FB6CDF /* WVSSConfigController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVSSConfigController.h; sourceTree = "<group>"; };
-		641457281AEDCAD000FB6CDF /* WVSSConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVSSConfigController.m; sourceTree = "<group>"; };
-		6414572C1AEDCBD900FB6CDF /* WVSSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVSSConfig.h; sourceTree = "<group>"; };
-		6414572D1AEDCBD900FB6CDF /* WVSSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVSSConfig.m; sourceTree = "<group>"; };
-		641457311AEDCCAB00FB6CDF /* WVSSAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVSSAddress.h; sourceTree = "<group>"; };
-		641457321AEDCCAB00FB6CDF /* WVSSAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVSSAddress.m; sourceTree = "<group>"; };
-		641457361AEDD51900FB6CDF /* WVSSAddressListFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVSSAddressListFetcher.h; sourceTree = "<group>"; };
-		641457371AEDD51900FB6CDF /* WVSSAddressListFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVSSAddressListFetcher.m; sourceTree = "<group>"; };
-		64628F2E1B281BB300B7B73D /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
-		64628F2F1B281BB300B7B73D /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
-		64EED328120EC1B40048A830 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		64EED3E8120EC6380048A830 /* ConfigureSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
-		8D255AD20486D3F9007BF209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D255AD30486D3F9007BF209 /* WebViewScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		F50079790118B23001CA0E54 /* WebViewScreenSaverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewScreenSaverView.h; sourceTree = "<group>"; };
-		F500797A0118B23001CA0E54 /* WebViewScreenSaverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewScreenSaverView.m; sourceTree = "<group>"; };
-		F931A6812B8A8F6D00418701 /* WKWebViewPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewPrivate.h; sourceTree = "<group>"; };
-		F931A6822B8A8F6D00418701 /* WKWebViewPrivate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewPrivate.m; sourceTree = "<group>"; };
-		F95905A82EC8D419002430A3 /* WVSSFileLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WVSSFileLogger.h; sourceTree = "<group>"; };
-		F95905A92EC8D419002430A3 /* WVSSFileLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVSSFileLogger.m; sourceTree = "<group>"; };
-		F95905AD2EC9086E002430A3 /* WVSSLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WVSSLog.h; sourceTree = "<group>"; };
+		0179E74F1241302A761E103F /* WebViewScreenSaverRig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewScreenSaverRig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5054049C625BDDE4736298F2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		837FB787CB3553BDE3384E2A /* ConfigureSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
+		9C04F1FCD9F6C255A6857A1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACE6B91DDF61813879B81D00 /* WebViewScreenSaver.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewScreenSaver.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4840DD8726AAA8A1F8FB317 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		CD5D74ABD95B10AAF1BE5C3E /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		E12CAF3828669773C57535C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E9F917B7A87FD99F66C01B34 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+		ED9251FE1FCB176ED1E1BD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F187BEA9E1385FBDE425AD52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		"TEMP_03B3327C-C8DC-42DC-9486-4B7BCC234B33" /* WKWebView+Private.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+Private.swift"; sourceTree = "<group>"; };
+		"TEMP_04E8603B-A25B-47DD-ACDE-1ADC4F3C65C9" /* WVSSConfigController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WVSSConfigController.swift; sourceTree = "<group>"; };
+		"TEMP_2A942EF5-8F1C-4590-A900-35FBCB4A1894" /* WVSSAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WVSSAddress.swift; sourceTree = "<group>"; };
+		"TEMP_780D3AEF-39FB-47D2-AD0D-A0E726CE2735" /* WVSSConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WVSSConfig.swift; sourceTree = "<group>"; };
+		"TEMP_83E13D38-9B1C-4BA2-8DF3-A84705329BCA" /* WVSSFileLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WVSSFileLogger.swift; sourceTree = "<group>"; };
+		"TEMP_982B00AC-95E5-4134-9B70-9D70255CA21B" /* WebViewScreenSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewScreenSaverView.swift; sourceTree = "<group>"; };
+		"TEMP_C7CB8EF0-2EC4-4925-AD6C-1D3B547932D9" /* WVSSAddressListFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WVSSAddressListFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		641457041AEDC92100FB6CDF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D255ACD0486D3F9007BF209 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */,
-				8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */,
-				64EED329120EC1B40048A830 /* WebKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		089C166AFE841209C02AAC07 /* WebViewScreenSaver */ = {
+		30C15436CA20404214BE8DFA = {
 			isa = PBXGroup;
 			children = (
-				08FB77AFFE84173DC02AAC07 /* Classes */,
-				32DBCFA70370C4F300C91783 /* Other Sources */,
-				089C167CFE841241C02AAC07 /* Resources */,
-				641457081AEDC92100FB6CDF /* WebViewScreenSaverRig */,
-				089C1671FE841209C02AAC07 /* Frameworks */,
-				19C28FB8FE9D52D311CA2CBB /* Products */,
+				837FB787CB3553BDE3384E2A /* ConfigureSheet.xib */,
+				CD5D74ABD95B10AAF1BE5C3E /* thumbnail.png */,
+				E9F917B7A87FD99F66C01B34 /* thumbnail@2x.png */,
+				638013B9171CAF60A5D139BC /* en.lproj */,
+				913656B4D8DECBCA6B435615 /* WebViewScreenSaverRig */,
+				B84E023D5751415D205A7CD4 /* Products */,
 			);
-			name = WebViewScreenSaver;
 			sourceTree = "<group>";
 		};
-		089C1671FE841209C02AAC07 /* Frameworks */ = {
+		638013B9171CAF60A5D139BC /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				64EED328120EC1B40048A830 /* WebKit.framework */,
-				089C1672FE841209C02AAC07 /* Foundation.framework */,
-				089C167FFE841241C02AAC07 /* AppKit.framework */,
-				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
-				06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */,
+				B4840DD8726AAA8A1F8FB317 /* InfoPlist.strings */,
 			);
-			name = Frameworks;
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
-		089C167CFE841241C02AAC07 /* Resources */ = {
+		913656B4D8DECBCA6B435615 /* WebViewScreenSaverRig */ = {
 			isa = PBXGroup;
 			children = (
-				64628F2E1B281BB300B7B73D /* thumbnail.png */,
-				64628F2F1B281BB300B7B73D /* thumbnail@2x.png */,
-				8D255AD20486D3F9007BF209 /* Info.plist */,
-				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
-				64EED3E8120EC6380048A830 /* ConfigureSheet.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		08FB77AFFE84173DC02AAC07 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F50079790118B23001CA0E54 /* WebViewScreenSaverView.h */,
-				F500797A0118B23001CA0E54 /* WebViewScreenSaverView.m */,
-				641457271AEDCAD000FB6CDF /* WVSSConfigController.h */,
-				641457281AEDCAD000FB6CDF /* WVSSConfigController.m */,
-				6414572C1AEDCBD900FB6CDF /* WVSSConfig.h */,
-				6414572D1AEDCBD900FB6CDF /* WVSSConfig.m */,
-				641457311AEDCCAB00FB6CDF /* WVSSAddress.h */,
-				641457321AEDCCAB00FB6CDF /* WVSSAddress.m */,
-				641457361AEDD51900FB6CDF /* WVSSAddressListFetcher.h */,
-				641457371AEDD51900FB6CDF /* WVSSAddressListFetcher.m */,
-				F95905AD2EC9086E002430A3 /* WVSSLog.h */,
-				F95905A82EC8D419002430A3 /* WVSSFileLogger.h */,
-				F95905A92EC8D419002430A3 /* WVSSFileLogger.m */,
-				F931A6812B8A8F6D00418701 /* WKWebViewPrivate.h */,
-				F931A6822B8A8F6D00418701 /* WKWebViewPrivate.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		19C28FB8FE9D52D311CA2CBB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8D255AD30486D3F9007BF209 /* WebViewScreenSaver.saver */,
-				641457071AEDC92100FB6CDF /* WebViewScreenSaverRig.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		32DBCFA70370C4F300C91783 /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				32DBCFA80370C50100C91783 /* WebViewScreenSaver_Prefix.pch */,
-			);
-			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		641457081AEDC92100FB6CDF /* WebViewScreenSaverRig */ = {
-			isa = PBXGroup;
-			children = (
-				6414570B1AEDC92100FB6CDF /* AppDelegate.h */,
-				6414570C1AEDC92100FB6CDF /* AppDelegate.m */,
-				641457101AEDC92200FB6CDF /* Images.xcassets */,
-				641457121AEDC92200FB6CDF /* MainMenu.xib */,
-				641457091AEDC92100FB6CDF /* Supporting Files */,
+				F187BEA9E1385FBDE425AD52 /* AppDelegate.swift */,
+				9C04F1FCD9F6C255A6857A1A /* Images.xcassets */,
+				E12CAF3828669773C57535C1 /* Info.plist */,
+				5054049C625BDDE4736298F2 /* main.swift */,
+				C0630B3D5EBA890475B1AE61 /* MainMenu.xib */,
 			);
 			path = WebViewScreenSaverRig;
 			sourceTree = "<group>";
 		};
-		641457091AEDC92100FB6CDF /* Supporting Files */ = {
+		B84E023D5751415D205A7CD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6414570A1AEDC92100FB6CDF /* Info.plist */,
-				6414570E1AEDC92200FB6CDF /* main.m */,
+				ACE6B91DDF61813879B81D00 /* WebViewScreenSaver.bundle */,
+				0179E74F1241302A761E103F /* WebViewScreenSaverRig.app */,
 			);
-			name = "Supporting Files";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"TEMP_66017E66-C446-4F09-ADD9-438AE9C5B94B" /* . */ = {
+			isa = PBXGroup;
+			children = (
+				"TEMP_83E13D38-9B1C-4BA2-8DF3-A84705329BCA" /* WVSSFileLogger.swift */,
+				"TEMP_982B00AC-95E5-4134-9B70-9D70255CA21B" /* WebViewScreenSaverView.swift */,
+				"TEMP_03B3327C-C8DC-42DC-9486-4B7BCC234B33" /* WKWebView+Private.swift */,
+				"TEMP_780D3AEF-39FB-47D2-AD0D-A0E726CE2735" /* WVSSConfig.swift */,
+				"TEMP_C7CB8EF0-2EC4-4925-AD6C-1D3B547932D9" /* WVSSAddressListFetcher.swift */,
+				"TEMP_2A942EF5-8F1C-4590-A900-35FBCB4A1894" /* WVSSAddress.swift */,
+				"TEMP_04E8603B-A25B-47DD-ACDE-1ADC4F3C65C9" /* WVSSConfigController.swift */,
+			);
+			name = .;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		8D255AC60486D3F9007BF209 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F95905AE2EC90872002430A3 /* WVSSLog.h in Headers */,
-				8D255AC70486D3F9007BF209 /* WebViewScreenSaver_Prefix.pch in Headers */,
-				F95905AB2EC8D419002430A3 /* WVSSFileLogger.h in Headers */,
-				8D255AC80486D3F9007BF209 /* WebViewScreenSaverView.h in Headers */,
-				641457291AEDCAD000FB6CDF /* WVSSConfigController.h in Headers */,
-				641457331AEDCCAB00FB6CDF /* WVSSAddress.h in Headers */,
-				641457381AEDD51900FB6CDF /* WVSSAddressListFetcher.h in Headers */,
-				F931A6832B8A8F6D00418701 /* WKWebViewPrivate.h in Headers */,
-				6414572E1AEDCBD900FB6CDF /* WVSSConfig.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		641457061AEDC92100FB6CDF /* WebViewScreenSaverRig */ = {
+		28C6444FA836E6D64F454B22 /* WebViewScreenSaverRig */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 641457211AEDC92200FB6CDF /* Build configuration list for PBXNativeTarget "WebViewScreenSaverRig" */;
+			buildConfigurationList = 9A859774DD41D5B69D278E95 /* Build configuration list for PBXNativeTarget "WebViewScreenSaverRig" */;
 			buildPhases = (
-				641457031AEDC92100FB6CDF /* Sources */,
-				641457041AEDC92100FB6CDF /* Frameworks */,
-				641457051AEDC92100FB6CDF /* Resources */,
+				8DCFA0FBC622F5C2308E8E20 /* Sources */,
+				FBD1C056A51946D0D62255FF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = WebViewScreenSaverRig;
+			packageProductDependencies = (
+			);
 			productName = WebViewScreenSaverRig;
-			productReference = 641457071AEDC92100FB6CDF /* WebViewScreenSaverRig.app */;
+			productReference = 0179E74F1241302A761E103F /* WebViewScreenSaverRig.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8D255AC50486D3F9007BF209 /* WebViewScreenSaver */ = {
+		FC06E01CDC86D9A94FE83A8A /* WebViewScreenSaver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "WebViewScreenSaver" */;
+			buildConfigurationList = FA993AA66DE4A76DC2619111 /* Build configuration list for PBXNativeTarget "WebViewScreenSaver" */;
 			buildPhases = (
-				8D255AC60486D3F9007BF209 /* Headers */,
-				8D255AC90486D3F9007BF209 /* Resources */,
-				8D255ACB0486D3F9007BF209 /* Sources */,
-				8D255ACD0486D3F9007BF209 /* Frameworks */,
+				E0E1AB81AD76D39D22499BE3 /* Sources */,
+				E0B7CE7031CE5FAF1163A380 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = WebViewScreenSaver;
-			productInstallPath = "$(HOME)/Library/Screen Savers";
+			packageProductDependencies = (
+			);
 			productName = WebViewScreenSaver;
-			productReference = 8D255AD30486D3F9007BF209 /* WebViewScreenSaver.saver */;
+			productReference = ACE6B91DDF61813879B81D00 /* WebViewScreenSaver.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		089C1669FE841209C02AAC07 /* Project object */ = {
+		C761CB4CCC9F06D139420C3A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					641457061AEDC92100FB6CDF = {
-						CreatedOnToolsVersion = 6.1.1;
+					28C6444FA836E6D64F454B22 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+					FC06E01CDC86D9A94FE83A8A = {
+						DevelopmentTeam = "";
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "WebViewScreenSaver" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 2FBFCEEFD41D432F7576A370 /* Build configuration list for PBXProject "WebViewScreenSaver" */;
 			developmentRegion = en;
-			hasScannedForEncodings = 1;
+			hasScannedForEncodings = 0;
 			knownRegions = (
 				Base,
-				ja,
 				en,
-				de,
-				fr,
 			);
-			mainGroup = 089C166AFE841209C02AAC07 /* WebViewScreenSaver */;
+			mainGroup = 30C15436CA20404214BE8DFA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B84E023D5751415D205A7CD4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D255AC50486D3F9007BF209 /* WebViewScreenSaver */,
-				641457061AEDC92100FB6CDF /* WebViewScreenSaverRig */,
+				FC06E01CDC86D9A94FE83A8A /* WebViewScreenSaver */,
+				28C6444FA836E6D64F454B22 /* WebViewScreenSaverRig */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		641457051AEDC92100FB6CDF /* Resources */ = {
+		E0B7CE7031CE5FAF1163A380 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F945D8A82BA0A2EE0038B7B5 /* thumbnail.png in Resources */,
-				F945D8A92BA0A2EE0038B7B5 /* thumbnail@2x.png in Resources */,
-				641457111AEDC92200FB6CDF /* Images.xcassets in Resources */,
-				641457141AEDC92200FB6CDF /* MainMenu.xib in Resources */,
-				6414573B1AEDECD800FB6CDF /* ConfigureSheet.xib in Resources */,
+				5E161D4651755CFBA8433239 /* ConfigureSheet.xib in Resources */,
+				F4E16D741CA4E9F099DDD309 /* InfoPlist.strings in Resources */,
+				D34FA402F6C6B6F1E6BBF3E4 /* thumbnail.png in Resources */,
+				23110E7219D878977937774A /* thumbnail@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D255AC90486D3F9007BF209 /* Resources */ = {
+		FBD1C056A51946D0D62255FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */,
-				64628F311B281BB300B7B73D /* thumbnail@2x.png in Resources */,
-				64EED3E9120EC6380048A830 /* ConfigureSheet.xib in Resources */,
-				64628F301B281BB300B7B73D /* thumbnail.png in Resources */,
+				FD76EEC3B92DF5B00D80E1CA /* ConfigureSheet.xib in Resources */,
+				B5026896BCA5F8DF1460F580 /* Images.xcassets in Resources */,
+				1810944A4AB4B36345428065 /* MainMenu.xib in Resources */,
+				14E2201C9A01958FB47D2121 /* thumbnail.png in Resources */,
+				13A752DD20C6F2C92AAC0286 /* thumbnail@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		641457031AEDC92100FB6CDF /* Sources */ = {
+		8DCFA0FBC622F5C2308E8E20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F931A6852B8A925C00418701 /* WKWebViewPrivate.m in Sources */,
-				64628F051B27BBE100B7B73D /* WebViewScreenSaverView.m in Sources */,
-				641457301AEDCBD900FB6CDF /* WVSSConfig.m in Sources */,
-				F95905AA2EC8D419002430A3 /* WVSSFileLogger.m in Sources */,
-				6414572B1AEDCAD000FB6CDF /* WVSSConfigController.m in Sources */,
-				6414570F1AEDC92200FB6CDF /* main.m in Sources */,
-				641457351AEDCCAB00FB6CDF /* WVSSAddress.m in Sources */,
-				6414570D1AEDC92100FB6CDF /* AppDelegate.m in Sources */,
-				6414573A1AEDD51900FB6CDF /* WVSSAddressListFetcher.m in Sources */,
+				92764659B09DCF0E86CF10C8 /* AppDelegate.swift in Sources */,
+				8F7EFDFCB9811E677CC5236F /* WKWebView+Private.swift in Sources */,
+				4988CAA0407DEB74E99CEFA0 /* WVSSAddress.swift in Sources */,
+				140399589A1965D6FCAA14FC /* WVSSAddressListFetcher.swift in Sources */,
+				5F8B386B46B358220008C0A6 /* WVSSConfig.swift in Sources */,
+				608430F63D7E1B4A11176E9F /* WVSSConfigController.swift in Sources */,
+				D866015F7EBF561C178E7EAF /* WVSSFileLogger.swift in Sources */,
+				8583A479A551DB7E73B32ECB /* WebViewScreenSaverView.swift in Sources */,
+				3A874EF7B0DC979EFE6A41E9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D255ACB0486D3F9007BF209 /* Sources */ = {
+		E0E1AB81AD76D39D22499BE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				641457391AEDD51900FB6CDF /* WVSSAddressListFetcher.m in Sources */,
-				6414572A1AEDCAD000FB6CDF /* WVSSConfigController.m in Sources */,
-				641457341AEDCCAB00FB6CDF /* WVSSAddress.m in Sources */,
-				F95905AC2EC8D419002430A3 /* WVSSFileLogger.m in Sources */,
-				F931A6842B8A8F6D00418701 /* WKWebViewPrivate.m in Sources */,
-				8D255ACC0486D3F9007BF209 /* WebViewScreenSaverView.m in Sources */,
-				6414572F1AEDCBD900FB6CDF /* WVSSConfig.m in Sources */,
+				E33142F96DE0AF2445115FB8 /* WKWebView+Private.swift in Sources */,
+				503BD2AC3E6D4DD6E668A84A /* WVSSAddress.swift in Sources */,
+				55A49F879EAC0455A5165E75 /* WVSSAddressListFetcher.swift in Sources */,
+				8CE99CE5012582353789F188 /* WVSSConfig.swift in Sources */,
+				E183D3D72DE94B9D8DD14406 /* WVSSConfigController.swift in Sources */,
+				67D174B9A236083B2E8CCE99 /* WVSSFileLogger.swift in Sources */,
+				8A47C0827C40387DBABA7803 /* WebViewScreenSaverView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+		C0630B3D5EBA890475B1AE61 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				56F520D9224B119A00221B8E /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		641457121AEDC92200FB6CDF /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				641457131AEDC92200FB6CDF /* Base */,
+				ED9251FE1FCB176ED1E1BD70 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -373,141 +261,160 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		641457221AEDC92200FB6CDF /* Debug */ = {
+		0706B85E16EBCB085AEE91FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-					"RIG_MODE=1",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = WebViewScreenSaverRig/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.liquidx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-			};
-			name = Debug;
-		};
-		641457231AEDC92200FB6CDF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = WebViewScreenSaverRig/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.liquidx.$(PRODUCT_NAME:rfc1034identifier)";
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		EF7AD72E08BB986600CE4634 /* Debug */ = {
+		1365D752796515C74107D26E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "-";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = WebViewScreenSaver_Prefix.pch;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WebViewScreenSaverRig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.liquidx.WebViewScreenSaverRig;
+				PRODUCT_NAME = WebViewScreenSaverRig;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) RIG_MODE";
+			};
+			name = Release;
+		};
+		1BA36926741D9B68D4B35FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.liquidx.${PRODUCT_NAME:identifier}";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.liquidx.WebViewScreenSaver;
 				PRODUCT_NAME = WebViewScreenSaver;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		20F914A66CA1F795EBA30652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WebViewScreenSaverRig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.liquidx.WebViewScreenSaverRig;
+				PRODUCT_NAME = WebViewScreenSaverRig;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) RIG_MODE";
+			};
+			name = Debug;
+		};
+		61791CC30F598DEAAB8E76F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.liquidx.WebViewScreenSaver;
+				PRODUCT_NAME = WebViewScreenSaver;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
 		};
-		EF7AD72F08BB986600CE4634 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = WebViewScreenSaver_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.liquidx.${PRODUCT_NAME:identifier}";
-				PRODUCT_NAME = WebViewScreenSaver;
-				WRAPPER_EXTENSION = saver;
-			};
-			name = Release;
-		};
-		EF7AD73208BB986600CE4634 /* Debug */ = {
+		6C04511DAFC451AFB2146E5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -515,98 +422,80 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				DEVELOPMENT_TEAM = BPXMH69X9T;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
-		};
-		EF7AD73308BB986600CE4634 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				DEVELOPMENT_TEAM = BPXMH69X9T;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				SDKROOT = macosx;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		641457211AEDC92200FB6CDF /* Build configuration list for PBXNativeTarget "WebViewScreenSaverRig" */ = {
+		2FBFCEEFD41D432F7576A370 /* Build configuration list for PBXProject "WebViewScreenSaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				641457221AEDC92200FB6CDF /* Debug */,
-				641457231AEDC92200FB6CDF /* Release */,
+				6C04511DAFC451AFB2146E5F /* Debug */,
+				0706B85E16EBCB085AEE91FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "WebViewScreenSaver" */ = {
+		9A859774DD41D5B69D278E95 /* Build configuration list for PBXNativeTarget "WebViewScreenSaverRig" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF7AD72E08BB986600CE4634 /* Debug */,
-				EF7AD72F08BB986600CE4634 /* Release */,
+				20F914A66CA1F795EBA30652 /* Debug */,
+				1365D752796515C74107D26E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "WebViewScreenSaver" */ = {
+		FA993AA66DE4A76DC2619111 /* Build configuration list for PBXNativeTarget "WebViewScreenSaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF7AD73208BB986600CE4634 /* Debug */,
-				EF7AD73308BB986600CE4634 /* Release */,
+				61791CC30F598DEAAB8E76F3 /* Debug */,
+				1BA36926741D9B68D4B35FC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+	rootObject = C761CB4CCC9F06D139420C3A /* Project object */;
 }
